@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/findatime" config.wsgi:application
